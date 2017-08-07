@@ -111,9 +111,15 @@ html, body, .main_body {
 }
 
 .github_div{
-  bottom: 30px;
+  bottom: 0px;
   right: 0;
   position: absolute;
+}
+
+.clear {
+  clear: both;
+  height: 50px;
+
 }
 
 .short_desc {
@@ -251,4 +257,11 @@ html, body, .main_body {
 .linkedin {
   float: right;
   margin-top: 50px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .glyph {
+    display:none;
+  }
 }
