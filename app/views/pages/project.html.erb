@@ -1,0 +1,175 @@
+<div class="row main_body">
+  <div class="container">
+    <div class="row banner">
+      <div class="col-12 col-lg-7">
+        <p class="large_name">Dion Chan</p>
+        <p class="small_name">Full-Stack Web Developer</p>
+      </div>
+      <div class="col-12 col-lg-5">
+        <p class="logo text-center">< /></p>
+        <ul class="tags">
+          <li class="tag">HTML</li>
+          <li class="tag">CSS</li>
+          <li class="tag">JS/JQuery</li>
+        </ul>
+        <ul class="tags">
+          <li class="tag">Ruby/Rails</li>
+          <li class="tag">SQL</li>
+          <li class="tag">AWS</li>
+          <li class="tag">Wordpress</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="short_desc">
+          <h3>Who am I?</h3>
+          <p>In early 2017, I took the plunge into becoming a full-time web developer.</p>
+          <p>Coming from a background in design/advertisement, where I produced content for websites and Ipad/print presentation materials
+            for top pharmaceutical companies, I now add technical skills to my repertoire.
+            Blending my expertise in human psychology, design and programming, I offer unique insight
+            that comes from a true understanding of the needs and desires of successful businesses and entrepreneurs.</p>
+          <div class="text-center about_me_btn"><%= link_to "Read more about me", about_path, class: "btn", id: "about_me_btn" %></div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row">
+      <div class="span12">
+        <div class="projects">
+          <h1 class="text-center">My projects</h1>
+          <h2>Rails apps</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="https://fakebook-hwchan91.herokuapp.com/">
+                 <img src="images/fakebook.png" alt="Fakebook" style="width:100%">
+                 <div class="caption">
+                   <h3>Fakebook</h3>
+                   <p>A Facebook-like social networking app with 'Friend', 'Like', 'Comment' capabilities and more!</p>
+                 </div>
+                </a>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+               <div class="thumbnail">
+                <a href="https://flightbooker-hwchan91.herokuapp.com/">
+                  <img src="images/flightbooker.png" alt="Flight Booker" style="width:100%">
+                  <div class="caption">
+                    <h3>Flight Booker</h3>
+                    <p>Search and book flights now, with email to confirm journey</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+               <a href="https://mastermind-hwchan91.herokuapp.com/">
+                 <img src="images/mastermind.png" alt="Mastermind" style="width:100%">
+                 <div class="caption">
+                   <h3>Mastermind</h3>
+                   <p>The classic 'Number-guessing game' with a Hacker theme</p>
+                 </div>
+               </a>
+             </div>
+           </div>
+         </div>
+
+           <div class="row last_row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                 <a href="https://eventmanager-hwchan91.herokuapp.com/">
+                   <img src="images/private_events.png" alt="Event Manager" style="width:100%">
+                   <div class="caption">
+                     <h3>Event Manager</h3>
+                     <p>A barebones event managing app similar to EventBrite</p>
+                   </div>
+                 </a>
+               </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="https://flickrapi-hwchan91.herokuapp.com/">
+                  <img src="images/flickr.png" alt="Flickr API" style="width:100%">
+                  <div class="caption">
+                    <h3>Flickr API</h3>
+                    <p>A Simple API for accesing Flickr photos</p>
+                    <br>
+                  </div>
+                </a>
+              </div>
+            </div>
+          <div class="github_div"><%= link_to "See more at my Github", "https://github.com/hwchan91?tab=repositories", class: "btn btn-info github" %></div>
+         </div>
+         </br>
+
+         <div class="inline"><h2>Ruby Apps </h2><p>with Command Line Interfaces</p></div>
+         <div class="row">
+           <div class="col-md-4">
+             <div class="thumbnail">
+               <a href="https://repl.it/HpML/5">
+                <img src="images/chess.png" alt="Chess" style="width:100%">
+                <div class="caption">
+                  <h3>Chess</h3>
+                  <p>Chess played with standard notation (with valid moves checking and checkmate indication)</p>
+                </div>
+               </a>
+             </div>
+           </div>
+
+           <div class="col-md-4">
+             <div class="thumbnail">
+               <a href="https://repl.it/HAHH/0">
+                <img src="images/tictactoe.png" alt="Tic Tac Toe with AI" style="width:100%">
+                <div class="caption">
+                  <h3>Unbeatable Tic Tac Toe</h3>
+                  <p>Tic Tac Toe with an unbeatble AI</p>
+                  <br>
+                </div>
+               </a>
+             </div>
+           </div>
+
+           <div class="col-md-4">
+             <div class="thumbnail">
+               <a href="https://repl.it/HF9z/4">
+                <img src="images/hangman.png" alt="Hangman with AI" style="width:100%">
+                <div class="caption">
+                  <h3>Hangman (with AI)</h3>
+                  <p>Player can choose to guess a word, or to make the AI guess a word</p>
+                </div>
+               </a>
+             </div>
+           </div>
+         </div>
+
+         <div class="row last_row">
+           <div class="col-md-4">
+             <div class="thumbnail">
+               <a href="https://repl.it/HUxe/2">
+                <img src="images/connectfour.png" alt="Connect Four" style="width:100%">
+                <div class="caption">
+                  <h3>Connect Four</h3>
+                  <p>A standard game of Connect Four played between 2 persons</p>
+                </div>
+               </a>
+             </div>
+           </div>
+
+           <div class="github_div"><%= link_to "See more at my Github", "https://github.com/hwchan91?tab=repositories", class: "btn btn-info github" %></div>
+         </div>
+
+
+
+</div>
+</div>

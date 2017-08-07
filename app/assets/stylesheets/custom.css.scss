@@ -1,0 +1,254 @@
+.navbar {
+    margin-bottom: 0 !important;
+    background-color: #3366ff !important;
+    border: none !important;
+}
+
+.navbar li a {
+    color: white !important;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+html, body, .main_body {
+  border-collapse: collapse;
+}
+
+.main_body {
+  background-color:  #005580;
+}
+
+.banner {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.projects {
+  margin-top: 50px;
+}
+
+.projects h1, .projects h2, .projects h3 {
+ font-family: 'Oswald', sans-serif;
+ font-weight: bold;
+}
+
+.projects h1 {
+  color: orange !important;
+}
+
+.large_name {
+  color: white;
+  font-size: 8em;
+}
+
+.small_name {
+  color: #b3b3b3;
+  font-size: 4em;
+}
+
+.logo {
+  font-size: 10em;
+  color: orange;
+}
+
+.skills {
+  color: orange;
+  font-size: 2em;
+}
+
+.tags {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tags, .tag {
+  list-style: none;
+  display: flex;
+}
+
+.tag {
+  margin: 0em .7em;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  padding: .3rem .5rem;
+  font-size: 1.2em;
+
+}
+
+ .thumbnail a:hover, .thumbnail a:active {
+   text-decoration: none;
+ }
+
+.thumbnail h3 {
+  font-weight: bold;
+}
+
+ .thumbnail p {
+   color: #a6a6a6;
+ }
+
+.inline h2, .inline p {
+  font-family: 'Oswald', sans-serif;
+  display: inline;
+}
+
+.follow_h2 p {
+  padding-left: 10px;
+}
+
+.github {
+  float: right;
+}
+
+.last_row {
+  position: relative;
+  height: auto;
+}
+
+.github_div{
+  bottom: 30px;
+  right: 0;
+  position: absolute;
+}
+
+.short_desc {
+  padding-top: 30px;
+}
+
+.short_desc h3 {
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.short_desc p {
+  font-size: 1.2em;
+  text-align: center;
+  color: #707e93;
+}
+
+.about_me_btn {
+  padding: 50px 50px;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+  .btn {
+    background-color: orange;
+    margin: 0px 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
+#about_me_btn{
+  background-color: orange;
+  margin: 0px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.about_me_upper {
+  color: white;
+  h1, h2, h3 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+  }
+  p {
+    font-size: 120%;
+    padding-left: 50px;
+  }
+  p strong {
+    color: orange;
+  }
+  h2 {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .quote {
+    padding-bottom: 50px;
+  }
+}
+
+.about_me_desc {
+  h3 {
+    color:  #4d778c;
+    padding-top: 30px;
+  }
+  h4 {
+    color: orange;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 150%;
+  }
+  p {
+    font-size: 1.2em;
+    padding-left: 50px;
+  }
+  .small_text {
+    font-size: 80%;
+  }
+}
+
+.glyphicon {
+  font-size: 800%;
+  color: #8cb3f2;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.resume {
+  h1, h4 {
+    color:  #005580;
+    font-weight: bold;
+  }
+  h1 {
+    font-family: 'Oswald', sans-serif;
+  }
+  hr {
+    margin: 0.1em;
+    color: #005580;
+    background-color: #005580;
+    border-color: #005580;
+  }
+  p, li {
+    font-size: 120%;
+  }
+
+  .title {
+    margin-bottom: 0px;
+  }
+  .small_text {
+    font-size: 90%;
+  }
+  .my_name {
+    color:  #005580;
+    font-weight: bold;
+    h1 {
+      font-size: 300%;
+    }
+    p {
+      margin-bottom: 0px;
+    }
+  }
+  .extra_space {
+    margin: 50px 0px;
+  }
+}
+
+.linkedin {
+  float: right;
+  margin-top: 50px;
+}
