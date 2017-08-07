@@ -1,0 +1,337 @@
+/* line 1, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.navbar {
+  margin-bottom: 0 !important;
+  background-color: #3366ff !important;
+  border: none !important;
+}
+
+/* line 7, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.navbar li a {
+  color: white !important;
+}
+
+/* line 11, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+html, body {
+  overflow-x: hidden;
+}
+
+/* line 15, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+html, body, .main_body {
+  border-collapse: collapse;
+}
+
+/* line 19, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.main_body {
+  background-color: #005580;
+}
+
+/* line 23, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.banner {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 30, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.projects {
+  margin-top: 50px;
+}
+
+/* line 34, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.projects h1, .projects h2, .projects h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+/* line 39, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.projects h1 {
+  color: orange !important;
+}
+
+/* line 43, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.large_name {
+  color: white;
+  font-size: 8em;
+}
+
+/* line 48, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.small_name {
+  color: #b3b3b3;
+  font-size: 4em;
+}
+
+/* line 53, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.logo {
+  font-size: 10em;
+  color: orange;
+}
+
+/* line 58, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.skills {
+  color: orange;
+  font-size: 2em;
+}
+
+/* line 63, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.tags {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 68, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.tags, .tag {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 73, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.tag {
+  margin: 0em .7em;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  padding: .3rem .5rem;
+  font-size: 1.2em;
+}
+
+/* line 83, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.thumbnail a:hover, .thumbnail a:active {
+  text-decoration: none;
+}
+
+/* line 87, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.thumbnail h3 {
+  font-weight: bold;
+}
+
+/* line 91, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.thumbnail p {
+  color: #a6a6a6;
+}
+
+/* line 95, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.inline h2, .inline p {
+  font-family: 'Oswald', sans-serif;
+  display: inline;
+}
+
+/* line 100, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.follow_h2 p {
+  padding-left: 10px;
+}
+
+/* line 104, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.github {
+  float: right;
+}
+
+/* line 108, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.last_row {
+  position: relative;
+  height: auto;
+}
+
+/* line 113, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.github_div {
+  bottom: 0px;
+  right: 0;
+  position: absolute;
+}
+
+/* line 119, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.clear {
+  clear: both;
+  height: 50px;
+}
+
+/* line 125, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.short_desc {
+  padding-top: 30px;
+}
+
+/* line 129, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.short_desc h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 135, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.short_desc p {
+  font-size: 1.2em;
+  text-align: center;
+  color: #707e93;
+}
+
+/* line 141, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_btn {
+  padding: 50px 50px;
+}
+
+/* line 146, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0px;
+}
+/* line 150, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.buttons .btn {
+  background-color: orange;
+  margin: 0px 50px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* line 160, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+#about_me_btn {
+  background-color: orange;
+  margin: 0px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* line 169, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_upper {
+  color: white;
+}
+/* line 171, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_upper h1, .about_me_upper h2, .about_me_upper h3 {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+/* line 175, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_upper p {
+  font-size: 120%;
+  padding-left: 50px;
+}
+/* line 179, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_upper p strong {
+  color: orange;
+}
+/* line 182, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_upper h2 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+/* line 186, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_upper .quote {
+  padding-bottom: 50px;
+}
+
+/* line 192, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_desc h3 {
+  color: #4d778c;
+  padding-top: 30px;
+}
+/* line 196, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_desc h4 {
+  color: orange;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 150%;
+}
+/* line 202, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_desc p {
+  font-size: 1.2em;
+  padding-left: 50px;
+}
+/* line 206, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.about_me_desc .small_text {
+  font-size: 80%;
+}
+
+/* line 211, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.glyphicon {
+  font-size: 800%;
+  color: #8cb3f2;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+/* line 219, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume h1, .resume h4 {
+  color: #005580;
+  font-weight: bold;
+}
+/* line 223, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume h1 {
+  font-family: 'Oswald', sans-serif;
+}
+/* line 226, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume hr {
+  margin: 0.1em;
+  color: #005580;
+  background-color: #005580;
+  border-color: #005580;
+}
+/* line 232, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume p, .resume li {
+  font-size: 120%;
+}
+/* line 236, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume .title {
+  margin-bottom: 0px;
+}
+/* line 239, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume .small_text {
+  font-size: 90%;
+}
+/* line 242, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume .my_name {
+  color: #005580;
+  font-weight: bold;
+}
+/* line 245, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume .my_name h1 {
+  font-size: 300%;
+}
+/* line 248, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume .my_name p {
+  margin-bottom: 0px;
+}
+/* line 252, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.resume .extra_space {
+  margin: 50px 0px;
+}
+
+/* line 257, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+.linkedin {
+  float: right;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 264, /home/hwchan91/theodinproject/portfolio/app/assets/stylesheets/custom.css.scss */
+  .glyph {
+    display: none;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
