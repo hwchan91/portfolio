@@ -45,8 +45,79 @@
       <div class="span12">
         <div class="projects">
           <h1 class="text-center" id="projects">My projects</h1>
+
+          <h2>JS apps</h2>
+          <div class="row section">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="https://waldo-hwchan91.herokuapp.com/">
+                 <img src="images/waldo_small.png" alt="Where's Waldo" style="width:100%">
+                 <div class="caption">
+                   <h3>Where's Waldo</h3>
+                   <p>Interative 'Where's Waldo' implemented with Rails and JS</p>
+                 </div>
+                </a>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+               <div class="thumbnail">
+                <a href="https://hwchan91.github.io/minesweeper/">
+                  <img src="images/minesweeper.png" alt="Minesweeper" style="width:100%">
+                  <div class="caption">
+                    <h3>Minesweeper</h3>
+                    <p>The classic game of Minesweeper made through JS</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+               <a href="https://hwchan91.github.io/snake/">
+                 <img src="images/snake.png" alt="Snake" style="width:100%">
+                 <div class="caption">
+                   <h3>Snake</h3>
+                   <p>The classic game of Snake with a minimalist design</p>
+                 </div>
+               </a>
+             </div>
+           </div>
+
+          <div class="clearfix hidden-xs"></div>
+
+           <div class="col-md-4">
+             <div class="thumbnail">
+              <a href="https://hwchan91.github.io/carousel_slider/">
+                <img src="images/slider.png" alt="Carousel Slider" style="width:100%">
+                <div class="caption">
+                  <h3>Carousel Slider</h3>
+                  <p>A photo display that automatically slides to the next photo for viewing</p>
+                </div>
+              </a>
+             </div>
+           </div>
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="https://hwchan91.github.io/twitch_streams/">
+                  <img src="images/twitch.png" alt="Twitch Streams" style="width:100%">
+                  <div class="caption">
+                    <h3>Twitch Streams</h3>
+                    <p>A (semi-)infinite scroller displaying Twitch featured streams</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="github_div"><%= link_to "See more at my Github", "https://github.com/hwchan91?tab=repositories", class: "btn btn-info github" %></div>
+         </div>
+
+         <div class="clear"></div>
+
           <h2>Rails apps</h2>
-          <div class="row">
+          <div class="row section">
             <div class="col-md-4">
               <div class="thumbnail">
                 <a href="https://fakebook-hwchan91.herokuapp.com/">
@@ -82,20 +153,20 @@
                </a>
              </div>
            </div>
-         </div>
 
-           <div class="row last_row">
-              <div class="col-md-4">
-                <div class="thumbnail">
-                 <a href="https://eventmanager-hwchan91.herokuapp.com/">
-                   <img src="images/private_events.png" alt="Event Manager" style="width:100%">
-                   <div class="caption">
-                     <h3>Event Manager</h3>
-                     <p>A barebones event managing app similar to EventBrite</p>
-                   </div>
-                 </a>
-               </div>
-            </div>
+          <div class="clearfix hidden-xs"></div>
+
+           <div class="col-md-4">
+             <div class="thumbnail">
+              <a href="https://eventmanager-hwchan91.herokuapp.com/">
+                <img src="images/private_events.png" alt="Event Manager" style="width:100%">
+                <div class="caption">
+                  <h3>Event Manager</h3>
+                  <p>A barebones event managing app similar to EventBrite</p>
+                </div>
+              </a>
+             </div>
+           </div>
 
             <div class="col-md-4">
               <div class="thumbnail">
@@ -109,12 +180,14 @@
                 </a>
               </div>
             </div>
-          <div class="github_div"><%= link_to "See more at my Github", "https://github.com/hwchan91?tab=repositories", class: "btn btn-info github" %></div>
+
+            <div class="github_div"><%= link_to "See more at my Github", "https://github.com/hwchan91?tab=repositories", class: "btn btn-info github" %></div>
          </div>
+
          <div class="clear"></div>
 
          <div class="inline"><h2>Ruby Apps </h2><p>with Command Line Interfaces</p></div>
-         <div class="row">
+         <div class="row section">
            <div class="col-md-4">
              <div class="thumbnail">
                <a href="https://repl.it/HpML/5">
@@ -151,9 +224,9 @@
                </a>
              </div>
            </div>
-         </div>
 
-         <div class="row last_row">
+          <div class="clearfix hidden-xs"></div>
+
            <div class="col-md-4">
              <div class="thumbnail">
                <a href="https://repl.it/HUxe/2">
@@ -165,9 +238,12 @@
                </a>
              </div>
            </div>
+
            <div class="github_div"><%= link_to "See more at my Github", "https://github.com/hwchan91?tab=repositories", class: "btn btn-info github" %></div>
          </div>
+
          <div class="clear">
+
       </div>
     </div>
   </div>

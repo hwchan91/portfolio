@@ -1,3 +1,6 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 .navbar {
     margin-bottom: 0 !important;
     background-color: #3366ff !important;
@@ -40,9 +43,13 @@ html, body, .main_body {
   color: orange !important;
 }
 
+.projects h2 {
+  margin-left: 20px;
+}
+
 .large_name {
   color: white;
-  font-size: 8em;
+  font-size: 6em;
 }
 
 .small_name {
@@ -101,8 +108,8 @@ html, body, .main_body {
   padding-left: 10px;
 }
 
-.github {
-  float: right;
+.section {
+  position: relative;
 }
 
 .last_row {
@@ -112,7 +119,7 @@ html, body, .main_body {
 
 .github_div{
   bottom: -50px;
-  right: 0;
+  right: 30px ;
   position: absolute;
   background-color: blue;
 }
